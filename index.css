@@ -41,6 +41,8 @@ body {
 
 span {
     margin-right: 65px;
+    color: #b30000;
+    text-shadow: 2px 5px 1px #660000;
 }
 
 .top {
@@ -58,21 +60,25 @@ span {
     font-size: 9vw;
     margin-right: 10px;
     margin-left: 15px;
+    color: #ffcc99;
 }
 .hours {
     font-size: 9vw;
     margin-right: 10px;
     margin-left: 15px;
+    color: #ffcc99;
 }
 .minutes {
     font-size: 9vw;
     margin-right: 10px;
     margin-left: 15px;
+    color: #ffcc99;
 }
 .seconds {
     font-size: 9vw;
     margin-right: 10px;
     margin-left: 15px;
+    color: #ffcc99;
 }
 
 @media (max-width: 450px) {
