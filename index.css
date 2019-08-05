@@ -6,7 +6,10 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(#1a0d00,#cc6600);
+    /* background: linear-gradient(#1a0d00,#cc6600); */
+    background: url('https://media.giphy.com/media/l3vRfhFD8hJCiP0uQ/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #ffcc99;
     font-family: crazyKiller;
     display: flex;
@@ -104,10 +107,12 @@ span {
     .top {
         margin-bottom: 20px;
         margin-left: 0px;
+        width: 100%;
     }
 
     .bottom {
         margin-left: 0px;
+        width: 100%;
     }
     
     .days {
