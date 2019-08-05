@@ -19,10 +19,10 @@ const x = setInterval(function() {
 
     // Display the result in the element with id
     // const idElement = document.getElementById('count'); 
-    document.getElementsByClassName("days")[0].innerHTML = days + "   ";
-    document.getElementsByClassName("hours")[0].innerHTML = hours + "   ";
-    document.getElementsByClassName("minutes")[0].innerHTML = minutes + "   ";
-    document.getElementsByClassName("seconds")[0].innerHTML = seconds + "   ";
+    document.getElementsByClassName("days")[0].innerHTML = days + " ";
+    document.getElementsByClassName("hours")[0].innerHTML = hours + " ";
+    document.getElementsByClassName("minutes")[0].innerHTML = minutes + " ";
+    document.getElementsByClassName("seconds")[0].innerHTML = seconds + " ";
 
     // If the count down is finished, write some text 
     if (distance < 0) {
